@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    font-family: 'Roboto', 'Sans Serif';
+}
+
+body{
+    background-color: rgba(27, 104, 78, 0.589);
+    text-align: center;
+    font-size: 2rem;
+}
+
+main{
+    min-height: 100vh;
+}
+
+input{
+    padding: 1rem;
+    margin: 1rem, auto, 1rem, auto;
+    box-shadow: 0 1rem 1rem rgba(0, 100, 100, 3);
+    border-radius: 2rem;
+}
+
+form{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li{
+    list-style: none;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.botao-remover{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: black;
+}
+
+.botao-remover:hover{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    font-style: bold;
+    background-color: rgb(255, 0, 0);
+}
+
+.botao-filtrar{
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 79, 114);
+}
+
+.botao-filtrar:focus{
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(167, 164, 211);
+}
+
+.botao-add{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    color: rgb(1, 23, 26);
+    background-color: rgb(255, 251, 251);
+}
+
+.botao-add:hover{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    font-style: bold;
+    color: rgb(252, 252, 252);
+    background-color: rgba(2, 139, 9, 0.541);
+}
+
+
+@media (max-width: 600px) {
+
+    body{
+        background-color: rgba(27, 28, 104, 0.589);
+        text-align: center;
+        font-size: 1rem;
+    }  
+
+    .botao-remover{
+        padding: 0.3rem;
+        margin: 0.3rem;
+        border-radius: 2rem;
+        color: white;
+        background-color: black;
+    }
+
+    .botao-remover:hover{
+        padding: 0.3rem;
+        margin: 0.3rem;
+        border-radius: 2rem;
+        color: white;
+        font-style: bold;
+        background-color: rgb(255, 0, 0);
+    }
+
+    .botao-filtrar{
+        padding: 0.5rem;
+        margin: 0.3rem;
+        border-radius: 2rem;
+        color: rgb(255, 255, 255);
+        background-color: rgb(4, 79, 114);
+    }
+
+    .botao-filtrar:focus{
+        padding: 0.5rem;
+        margin: 0.3rem;
+        border-radius: 2rem;
+        font-style: bold;
+        color: rgb(0, 0, 0);
+        background-color: rgb(167, 164, 211);
+    }
+
+    .botao-add{
+        padding: 0.3rem;
+        margin: 0.3rem;
+        border-radius: 2rem;
+        color: rgb(1, 23, 26);
+        background-color: rgb(255, 251, 251);
+    }
+
+    .botao-add:hover{
+        padding: 0.3rem;
+        margin: 0.3rem;
+        border-radius: 2rem;
+        font-style: bold;
+        color: rgb(252, 252, 252);
+        background-color: rgba(2, 139, 9, 0.541);
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+    body{
+        background-color: rgba(81, 104, 27, 0.589);
+        text-align: center;
+        font-size: 1.5rem;
+    }  
+
+    .botao-remover{
+        padding: 0.4rem;
+        margin: 0.4rem;
+        border-radius: 2rem;
+        color: white;
+        background-color: black;
+    }
+
+    .botao-remover:hover{
+        padding: 0.4rem;
+        margin: 0.4rem;
+        border-radius: 2rem;
+        color: white;
+        font-style: bold;
+        background-color: rgb(255, 0, 0);
+    }
+
+    .botao-filtrar{
+        padding: 0.6rem;
+        margin: 0.4rem;
+        border-radius: 2rem;
+        color: rgb(255, 255, 255);
+        background-color: rgb(4, 79, 114);
+    }
+
+    .botao-filtrar:focus{
+        padding: 0.6rem;
+        margin: 0.4rem;
+        border-radius: 2rem;
+        font-style: bold;
+        color: rgb(0, 0, 0);
+        background-color: rgb(167, 164, 211);
+    }
+
+    .botao-add{
+        padding: 0.4rem;
+        margin: 0.4rem;
+        border-radius: 2rem;
+        color: rgb(1, 23, 26);
+        background-color: rgb(255, 251, 251);
+    }
+
+    .botao-add:hover{
+        padding: 0.4rem;
+        margin: 0.4rem;
+        border-radius: 2rem;
+        font-style: bold;
+        color: rgb(252, 252, 252);
+        background-color: rgba(2, 139, 9, 0.541);
+    }
+  
+}
+
+
+
+
